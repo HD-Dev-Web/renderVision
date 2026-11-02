@@ -1,11 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import { HamburgerMenu } from './components/hamberMenu.tsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div />
+    <HamburgerMenu />
   )
 }
 
