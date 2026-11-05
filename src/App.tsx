@@ -1,9 +1,17 @@
-import { HamburgerMenu } from './components/hamberMenu.tsx'
+import { NavBar } from './components/NavBar.tsx';
+import { HeroBackground } from './components/HeroBackground.tsx';
+import { CenterBody } from './components/CenterBody.tsx';
 
 function App() {
   return (
-    <HamburgerMenu />
-  )
+    <HeroBackground>
+      <NavBar />
+      <body>
+        <CenterBody />
+      </body>
+    </HeroBackground>
+  );
 }
+
 
 export default App
